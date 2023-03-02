@@ -13,6 +13,7 @@
             <div class="card" style="max-width: 18rem;">
                 <div>Treno: {{$train['id']}}</div>
                 <div>
+                  <p>Azienda: {{$train['azienda']}}</p>
                   <p>Partenza da: {{$train['stazione_di_partenza']}}</p> 
                   <p>alle ore: {{$train['orario_di_partenza']}}</p>
                   <p>Arrivo a: {{$train['stazione_di_arrivo']}}</p>
